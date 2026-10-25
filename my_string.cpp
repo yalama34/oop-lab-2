@@ -1,5 +1,7 @@
 #include "my_string.h"
 
+#include <limits>
+
 String::String()
     : size_(0),
       capacity_(1) {
